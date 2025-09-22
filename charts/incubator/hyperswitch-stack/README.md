@@ -731,7 +731,7 @@ task ur
 </thead>
 <tbody><tr>
     <td><div><a href="../hyperswitch-app/values.yaml#L20">hyperswitch-app.services.consumer.image</a></div></td>
-    <td><div><code>"docker.juspay.io/juspaydotin/hyperswitch-consumer:v1.116.0"</code></div></td>
+    <td><div><code>"boltpe/boltpe-dev:hyperswitch-consumer-v1.116.0"</code></div></td>
     <td>Consumer image</td>
   </tr><tr>
     <td><div><a href="../hyperswitch-app/values.yaml#L17">hyperswitch-app.services.consumer.version</a></div></td>
@@ -739,7 +739,7 @@ task ur
     <td>Consumer version</td>
   </tr><tr>
     <td><div><a href="../hyperswitch-app/values.yaml#L36">hyperswitch-app.services.drainer.image</a></div></td>
-    <td><div><code>"docker.juspay.io/juspaydotin/hyperswitch-drainer:v1.116.0"</code></div></td>
+    <td><div><code>"boltpe/boltpe-dev:hyperswitch-drainer-v1.116.0"</code></div></td>
     <td>Drainer image</td>
   </tr><tr>
     <td><div><a href="../hyperswitch-app/values.yaml#L33">hyperswitch-app.services.drainer.version</a></div></td>
@@ -747,7 +747,7 @@ task ur
     <td>Drainer version</td>
   </tr><tr>
     <td><div><a href="../hyperswitch-app/values.yaml#L28">hyperswitch-app.services.producer.image</a></div></td>
-    <td><div><code>"docker.juspay.io/juspaydotin/hyperswitch-producer:v1.116.0"</code></div></td>
+    <td><div><code>"boltpe/boltpe-dev:hyperswitch-producer-v1.116.0"</code></div></td>
     <td>Producer image</td>
   </tr><tr>
     <td><div><a href="../hyperswitch-app/values.yaml#L25">hyperswitch-app.services.producer.version</a></div></td>
@@ -759,7 +759,7 @@ task ur
     <td>Router host</td>
   </tr><tr>
     <td><div><a href="../hyperswitch-app/values.yaml#L9">hyperswitch-app.services.router.image</a></div></td>
-    <td><div><code>"docker.juspay.io/juspaydotin/hyperswitch-router:v1.116.0"</code></div></td>
+    <td><div><code>"boltpe/boltpe-dev:hyperswitch-router-v1.116.0"</code></div></td>
     <td>Router image</td>
   </tr><tr>
     <td><div><a href="../hyperswitch-app/values.yaml#L6">hyperswitch-app.services.router.version</a></div></td>
@@ -2401,7 +2401,7 @@ task ur
     <td></td>
   </tr><tr>
     <td><div><a href="../hyperswitch-app/values.yaml#L42">hyperswitch-app.services.controlCenter.image</a></div></td>
-    <td><div><code>"docker.juspay.io/juspaydotin/hyperswitch-control-center:v1.37.3"</code></div></td>
+    <td><div><code>"boltpe/boltpe-dev:hyperswitch-control-center-v1.37.3"</code></div></td>
     <td></td>
   </tr><tr>
     <td><div><a href="../hyperswitch-app/values.yaml#L40">hyperswitch-app.services.controlCenter.version</a></div></td>
@@ -2573,7 +2573,7 @@ task ur
     <td></td>
   </tr><tr>
     <td><div><a href="../hyperswitch-card-vault/values.yaml#L24">hyperswitch-app.hyperswitch-card-vault.server.image</a></div></td>
-    <td><div><code>"docker.juspay.io/juspaydotin/hyperswitch-card-vault:v0.6.5-dev"</code></div></td>
+    <td><div><code>"boltpe/boltpe-dev:hyperswitch-card-vault-v0.6.5-dev"</code></div></td>
     <td></td>
   </tr><tr>
     <td><div><a href="../hyperswitch-card-vault/values.yaml#L29">hyperswitch-app.hyperswitch-card-vault.server.pod.annotations</a></div></td>
@@ -3499,7 +3499,7 @@ task ur
     <td></td>
   </tr><tr>
     <td><div><a href="../hyperswitch-web/values.yaml#L216">hyperswitch-web.services.sdkDemo.image</a></div></td>
-    <td><div><code>"docker.juspay.io/juspaydotin/hyperswitch-web:v1.0.10"</code></div></td>
+    <td><div><code>"boltpe/boltpe-dev:hyperswitch-web-v1.0.10"</code></div></td>
     <td></td>
   </tr>
 </tbody>

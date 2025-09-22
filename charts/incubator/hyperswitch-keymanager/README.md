@@ -163,7 +163,7 @@ secrets:
 | external.postgresql.enabled | bool | `false` |  |
 | global.affinity | object | `{}` |  |
 | global.annotations | object | `{}` |  |
-| global.image | string | `"docker.juspay.io/juspaydotin/hyperswitch-encryption-service:v0.1.8"` |  |
+| global.image | string | `"boltpe/boltpe-dev:hyperswitch-encryption-service-v0.1.8"` |  |
 | initDB.checkPGisUp.image | string | `"postgres:16-alpine3.19"` |  |
 | initDB.checkPGisUp.maxAttempt | int | `30` |  |
 | initDB.enable | bool | `true` |  |
@@ -193,7 +193,7 @@ secrets:
 | secrets.tls.key | string | `"sample_cert"` |  |
 | secrets.vault.token | string | `""` |  |
 | server.annotations | object | `{}` |  |
-| server.image | string | `"docker.juspay.io/juspaydotin/hyperswitch-encryption-service:v0.1.8"` |  |
+| server.image | string | `"boltpe/boltpe-dev:hyperswitch-encryption-service-v0.1.8"` |  |
 
 ## Examples
 

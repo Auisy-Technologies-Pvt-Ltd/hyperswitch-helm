@@ -657,7 +657,7 @@ Refer our [postman collection](https://www.postman.com/hyperswitch/workspace/hyp
 </thead>
 <tbody><tr>
     <td><div><a href="./values.yaml#L20">services.consumer.image</a></div></td>
-    <td><div><code>"docker.juspay.io/juspaydotin/hyperswitch-consumer:v1.116.0"</code></div></td>
+    <td><div><code>"boltpe/boltpe-dev:hyperswitch-consumer-v1.116.0"</code></div></td>
     <td>Consumer image</td>
   </tr><tr>
     <td><div><a href="./values.yaml#L17">services.consumer.version</a></div></td>
@@ -665,7 +665,7 @@ Refer our [postman collection](https://www.postman.com/hyperswitch/workspace/hyp
     <td>Consumer version</td>
   </tr><tr>
     <td><div><a href="./values.yaml#L36">services.drainer.image</a></div></td>
-    <td><div><code>"docker.juspay.io/juspaydotin/hyperswitch-drainer:v1.116.0"</code></div></td>
+    <td><div><code>"boltpe/boltpe-dev:hyperswitch-drainer-v1.116.0"</code></div></td>
     <td>Drainer image</td>
   </tr><tr>
     <td><div><a href="./values.yaml#L33">services.drainer.version</a></div></td>
@@ -673,7 +673,7 @@ Refer our [postman collection](https://www.postman.com/hyperswitch/workspace/hyp
     <td>Drainer version</td>
   </tr><tr>
     <td><div><a href="./values.yaml#L28">services.producer.image</a></div></td>
-    <td><div><code>"docker.juspay.io/juspaydotin/hyperswitch-producer:v1.116.0"</code></div></td>
+    <td><div><code>"boltpe/boltpe-dev:hyperswitch-producer-v1.116.0"</code></div></td>
     <td>Producer image</td>
   </tr><tr>
     <td><div><a href="./values.yaml#L25">services.producer.version</a></div></td>
@@ -685,7 +685,7 @@ Refer our [postman collection](https://www.postman.com/hyperswitch/workspace/hyp
     <td>Router host</td>
   </tr><tr>
     <td><div><a href="./values.yaml#L9">services.router.image</a></div></td>
-    <td><div><code>"docker.juspay.io/juspaydotin/hyperswitch-router:v1.116.0"</code></div></td>
+    <td><div><code>"boltpe/boltpe-dev:hyperswitch-router-v1.116.0"</code></div></td>
     <td>Router image</td>
   </tr><tr>
     <td><div><a href="./values.yaml#L6">services.router.version</a></div></td>
@@ -1842,7 +1842,7 @@ Refer our [postman collection](https://www.postman.com/hyperswitch/workspace/hyp
     <td></td>
   </tr><tr>
     <td><div><a href="./values.yaml#L42">services.controlCenter.image</a></div></td>
-    <td><div><code>"docker.juspay.io/juspaydotin/hyperswitch-control-center:v1.37.3"</code></div></td>
+    <td><div><code>"boltpe/boltpe-dev:hyperswitch-control-center-v1.37.3"</code></div></td>
     <td></td>
   </tr><tr>
     <td><div><a href="./values.yaml#L40">services.controlCenter.version</a></div></td>
@@ -2014,7 +2014,7 @@ Refer our [postman collection](https://www.postman.com/hyperswitch/workspace/hyp
     <td></td>
   </tr><tr>
     <td><div><a href="../hyperswitch-card-vault/values.yaml#L24">hyperswitch-card-vault.server.image</a></div></td>
-    <td><div><code>"docker.juspay.io/juspaydotin/hyperswitch-card-vault:v0.6.5-dev"</code></div></td>
+    <td><div><code>"boltpe/boltpe-dev:hyperswitch-card-vault-v0.6.5-dev"</code></div></td>
     <td></td>
   </tr><tr>
     <td><div><a href="../hyperswitch-card-vault/values.yaml#L29">hyperswitch-card-vault.server.pod.annotations</a></div></td>

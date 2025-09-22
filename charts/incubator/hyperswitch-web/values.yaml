@@ -213,6 +213,6 @@ services:
   router:
     host: http://localhost:8080
   sdkDemo:
-    image: docker.juspay.io/juspaydotin/hyperswitch-web:v1.0.10
+    image: boltpe/boltpe-dev:hyperswitch-web-v1.0.10
     hyperswitchPublishableKey: pub_key
     hyperswitchSecretKey: secret_key

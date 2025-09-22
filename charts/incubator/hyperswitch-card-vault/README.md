@@ -168,7 +168,7 @@ external:
 | server.externalKeyManager.url | string | `"http://localhost:5000"` |  |
 | server.extra.env | object | `{}` |  |
 | server.host | string | `"0.0.0.0"` |  |
-| server.image | string | `"docker.juspay.io/juspaydotin/hyperswitch-card-vault:v0.6.5-dev"` |  |
+| server.image | string | `"boltpe/boltpe-dev:hyperswitch-card-vault-v0.6.5-dev"` |  |
 | server.pod.annotations | object | `{}` |  |
 | server.port | string | `"8080"` |  |
 | server.vault.url | string | `"http://127.0.0.1:8200"` |  |

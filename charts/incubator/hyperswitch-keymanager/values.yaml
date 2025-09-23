@@ -5,7 +5,7 @@
 replicaCount: 1
 
 global:
-  image: boltpe/hyperswitch-encryption-service:v0.1.8
+  image: docker.io/boltpe/hyperswitch-encryption-service:v0.1.8
   annotations: {}
   affinity: {}
 
@@ -13,7 +13,7 @@ autoscaling:
   enabled: false
 
 server:
-  image: boltpe/hyperswitch-encryption-service:v0.1.8
+  image: docker.io/boltpe/hyperswitch-encryption-service:v0.1.8
   annotations: {}
   # When deploying with AWS backend, you can override this:
   # annotations:

@@ -8,14 +8,14 @@ All Docker images have been updated from the original Juspay repositories to Bol
 
 | Service | BoltPE Image |
 |---------|-------------|
-| Router | `boltpe/hyperswitch-router:v1.116.0` |
-| Consumer | `boltpe/hyperswitch-consumer:v1.116.0` |
-| Producer | `boltpe/hyperswitch-producer:v1.116.0` |
-| Drainer | `boltpe/hyperswitch-drainer:v1.116.0` |
-| Control Center | `boltpe/hyperswitch-control-center:v1.37.3` |
-| Card Vault | `boltpe/hyperswitch-card-vault:v0.6.5` |
-| Encryption Service | `boltpe/hyperswitch-encryption-service:v0.1.8` |
-| Web | `boltpe/hyperswitch-web:v1.0.10` |
+| Router | `docker.io/boltpe/hyperswitch-router:v1.116.0` |
+| Consumer | `docker.io/boltpe/hyperswitch-consumer:v1.116.0` |
+| Producer | `docker.io/boltpe/hyperswitch-producer:v1.116.0` |
+| Drainer | `docker.io/boltpe/hyperswitch-drainer:v1.116.0` |
+| Control Center | `docker.io/boltpe/hyperswitch-control-center:v1.37.3` |
+| Card Vault | `docker.io/boltpe/hyperswitch-card-vault:v0.6.5-dev` |
+| Encryption Service | `docker.io/boltpe/hyperswitch-encryption-service:v0.1.8` |
+| Web | `docker.io/boltpe/hyperswitch-web:v1.0.10` |
 | KYC | `boltpe/kyc` (Available on Docker Hub, ready for integration) |
 
 ## Generated Artifacts
@@ -68,7 +68,7 @@ You can override default values by creating a custom values file:
 hyperswitch-app:
   services:
     router:
-      image: boltpe/hyperswitch-router:v1.116.0
+      image: docker.io/boltpe/hyperswitch-router:v1.116.0
       replicas: 3
 ```
 

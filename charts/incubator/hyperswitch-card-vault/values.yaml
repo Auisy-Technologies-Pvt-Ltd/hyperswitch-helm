@@ -21,7 +21,7 @@ server:
   port: "8080"
   version: v0.6.5
   # Image to be used for hyperswitch-card-vault.
-  image: boltpe/hyperswitch-card-vault:v0.6.5
+  image: docker.io/boltpe/hyperswitch-card-vault:v0.6.5-dev
 
   # values to be used in pod template.
   pod:
